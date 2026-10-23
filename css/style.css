@@ -13,7 +13,7 @@ header{
     display: -webkit-flex;
     display: flex;
     gap: 20px;
-    allign-items: center;
+    align-items: center;
 }
 
 
