@@ -9,7 +9,7 @@ header{
     padding: 5px 150px 5px;
 }
 
-.flexContainer{
+.flexContainer {
     display: -webkit-flex;
     display: flex;
     gap: 20px;
