@@ -9,14 +9,18 @@ header{
     padding: 5px 150px 5px;
 }
 
-.flex-container{
+.flexContainer{
     display: -webkit-flex;
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-
+.flexitem{
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
 
 
 
