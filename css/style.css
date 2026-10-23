@@ -14,7 +14,7 @@ header{
     -ms-flex: 1;
     flex: 1;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 12px;
     font-weight: 800;
 }
 
@@ -40,30 +40,36 @@ nav ul li {
 
 main {
 
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .flexContainer {
     display: -webkit-flex;
     display: flex;
-    gap: 3px;
+    gap: 99px;
     align-items: center;
 }
 
 .flexitem{
     gap: 20px;
     padding: 20px;
-    width: 12%;
+    width: 32%;
 }
+section {
+    padding: 32px;
+    margin: 20px 0px 20px;
 
-
-
-
-
+}
 
 footer{
 padding: 20px 150px 20px;
 background-color: #111827;
 color: #ffffff;
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px lightgray;
+    border: 1px solid lightgray;
+    border-radius: 20px;
 }
