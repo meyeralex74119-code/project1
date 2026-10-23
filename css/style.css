@@ -73,8 +73,49 @@ background-color: #1d4ed8;
 border-radius: 10%;
 font-size: 80px;
 
+margin: 0;
+height: 200px;
+text-align: center;
+
 
 }
+
+.circleBlue {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #1d4ed8;
+    text-align: center;
+    font-size: 60px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.circleGreen {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #22c55e;
+    text-align: center;
+    font-size: 60px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.circlePurple {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #a855f7;
+    text-align: center;
+    font-size: 60px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
 
 
 footer{
