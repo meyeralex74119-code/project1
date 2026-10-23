@@ -9,6 +9,19 @@ header{
     padding: 5px 150px 5px;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+main {
+
+    width: 1440%;
+    margin: 0 auto;
+}
+
 .flexContainer {
     display: -webkit-flex;
     display: flex;
