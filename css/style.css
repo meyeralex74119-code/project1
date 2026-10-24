@@ -47,15 +47,16 @@ main {
 .flexContainer {
     display: -webkit-flex;
     display: flex;
-    gap: 99px;
+    gap: 100px;
     align-items: center;
 }
 
 .flexitem{
     gap: 20px;
     padding: 5px;
-    width: 32%;
+    width: 100%;
 }
+
 section {
     padding: 32px;
     margin: 20px 0px 20px;
@@ -70,7 +71,7 @@ section {
 
 #heroIcon {
 background-color: #1d4ed8;
-border-radius: 10%;
+border-radius: 20%;
 font-size: 80px;
 
 margin: 0;
@@ -149,4 +150,15 @@ footer ul li {
     display: flex;
     justify-content: flex-end;
 
+}
+
+.listChecklist {
+    list-style-type: none;
+}
+
+.listCheclist ul li::before {
+    color: red;
+    content: "\2713";
+    font-weight: bold;
+    
 }
