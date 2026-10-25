@@ -51,7 +51,7 @@ main {
     align-items: center;
 }
 
-.flexitem{
+.flexItem{
     gap: 20px;
     padding: 5px;
     width: 100%;
@@ -162,5 +162,25 @@ ul.listChecklist li::before {
     content: "\2713";
     font-weight: bold;
     right:-90px;
+
+}
+
+
+button {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+background-color: #1b1b1c;
 
 }
