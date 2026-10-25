@@ -29,6 +29,12 @@ a nav{
     color: #ffffff;
 }
 
+/* This targets all links in your HTML */
+a {
+    color: white;
+    text-decoration: none; /* Optional: This removes the default underline */
+}
+
 nav ul li {
     padding: 5px 15px 15px 5px;
     list-style-type: none;
