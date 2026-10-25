@@ -154,11 +154,13 @@ footer ul li {
 
 .listChecklist {
     list-style-type: none;
+    margin: 25px;
 }
 
-.listCheclist ul li::before {
+ul.listChecklist li::before {
     color: red;
     content: "\2713";
     font-weight: bold;
-    
+    right:-90px;
+
 }
