@@ -13,8 +13,8 @@ header{
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    color: #ffffff;
-    font-size: 12px;
+    color: #ffffffff;
+    font-size: 20px;
     font-weight: 800;
 }
 
