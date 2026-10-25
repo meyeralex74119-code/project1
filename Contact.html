@@ -41,22 +41,30 @@
 <section>
 <div class="flexContainer">
 <div class="flexItem shadow">
-<form action="https://formspree.io" method="POST">
-<label for="name">Full Name *</label><br>
-<input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+ <form action="mailto:meyeralex074119@gmail.com" method="post" enctype="text/plain"><br><br>
 
-<label for="email">Email *</label><br>
-<input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+ <label for="email">Full Name *</label><br>
+<input type="text" id="name" name="name" value="Enter your full name"><br><br>
 
-<label for="message">Message *</label><br>
-<textarea id="message" name="message" placeholder="Enter your message" required></textarea><br><br>
+ <label for="email">Email *</label><br>
+ <input type="email" id="email" name="email"><br><br>
+<label for="subject">Subject*</label><br>
+<select id="subject" name="subject">
+<option value="medical"> this email is medical in nature</option>
+<option value="personal"> this email is personal in nature</option>
+<option value="group"> this email is group in nature</option>
+</select><br><br>
+
+
+<label for="message">Message*</label><br>
+<textarea id="message" name="message"></textarea><br><br>
 
 <input type="submit" value="Send Message">
-</form>
-</div>
 
+ </form>
+</div>
 <div class="flexItem">
-<div class="contactInfo shadow">
+ <div class="contactInfo shadow">
 <h4>Contact Info</h4>
 <p><strong>Email:</strong><br>info@student.edu</p>
 <p><strong>Phone:</strong><br>(555) 555-5555</p>
